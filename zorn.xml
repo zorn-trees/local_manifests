@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="zorn-trees" fetch="https://github.com/zorn-trees" revision="lineage-24.0" />
+  <remote name="snowyquest" fetch="https://gitlab.com/SnowyQuest" revision="main" />
+
+  <!-- Device -->
+  <project path="device/xiaomi/sm8650-common" name="android_device_xiaomi_sm8650-common" remote="zorn-trees" />
+  <project path="device/xiaomi/zorn" name="android_device_xiaomi_zorn" remote="zorn-trees" />
+  <project path="device/xiaomi/zorn-miuicamera" name="android_device_xiaomi_zorn-miuicamera" remote="zorn-trees" />
+
+  <!-- Hardware -->
+  <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="zorn-trees" />
+
+  <!-- Kernel -->
+  <project path="kernel/xiaomi/sm8650" name="android_kernel_xiaomi_sm8650" remote="zorn-trees" clone-depth="1" />
+  <project path="kernel/xiaomi/sm8650-devicetrees" name="android_kernel_xiaomi_sm8650-devicetrees" remote="zorn-trees" clone-depth="1" />
+  <project path="kernel/xiaomi/sm8650-modules" name="android_kernel_xiaomi_sm8650-modules" remote="zorn-trees" clone-depth="1" />
+
+  <!-- Vendor -->
+  <project path="vendor/xiaomi/sm8650-common" name="android_vendor_xiaomi_sm8650-common" remote="snowyquest" />
+  <project path="vendor/xiaomi/zorn" name="android_vendor_xiaomi_zorn" remote="snowyquest" />
+  <project path="vendor/xiaomi/zorn-miuicamera" name="android_vendor_xiaomi_zorn-miuicamera" remote="snowyquest" />
+</manifest>
