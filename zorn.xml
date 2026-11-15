@@ -17,7 +17,7 @@
   <project path="kernel/xiaomi/sm8650-modules" name="android_kernel_xiaomi_sm8650-modules" remote="zorn-trees" clone-depth="1" />
 
   <!-- Vendor -->
-  <project path="vendor/xiaomi/sm8650-common" name="android_vendor_xiaomi_sm8650-common" remote="snowyquest" />
-  <project path="vendor/xiaomi/zorn" name="android_vendor_xiaomi_zorn" remote="snowyquest" />
+  <project path="vendor/xiaomi/sm8650-common" name="android_vendor_xiaomi_sm8650-common" remote="snowyquest" revision="lineage-24.0" />
+  <project path="vendor/xiaomi/zorn" name="android_vendor_xiaomi_zorn" remote="snowyquest" revision="lineage-24.0" />
   <project path="vendor/xiaomi/zorn-miuicamera" name="android_vendor_xiaomi_zorn-miuicamera" remote="snowyquest" />
 </manifest>
